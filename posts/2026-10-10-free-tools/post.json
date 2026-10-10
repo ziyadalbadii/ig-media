@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "account": "@ziyadalbadi",
+ "ig_user_id": "17841403002319163",
+ "publish_at_local": "2026-10-10 17:00 Asia/Muscat",
+ "publish_at_utc": "2026-10-10T13:00:00Z",
+ "images": [
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-1.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-2.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-3.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-4.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-5.jpg"
+ ],
+ "caption_file": "caption.txt",
+ "draft_container_id": "18495585070100078",
+ "status": "scheduled"
+}
