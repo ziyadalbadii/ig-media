@@ -1,19 +1,55 @@
 {
- "type": "carousel",
+ "type": "carousel_mixed",
  "account": "@ziyadalbadi",
  "ig_user_id": "17841403002319163",
  "publish_at_local": "2026-10-11 20:00 Asia/Muscat",
  "publish_at_utc": "2026-10-11T16:00:00Z",
- "images": [
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-1.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-2.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-3.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-4.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-5.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-6.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-7.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-8.jpg"
- ],
  "caption_file": "caption.txt",
- "status": "scheduled"
+ "status": "scheduled",
+ "items": [
+  {
+   "type": "image",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-1.jpg"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-2.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-3.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-4.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-5.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-6.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-7.mp4"
+  },
+  {
+   "type": "video",
+   "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0aa85aa6b0a33f4e9b6818d11f711857f432a5c8/posts/2026-10-11-ev-charging/slide-8.mp4"
+  }
+ ],
+ "publish_procedure": [
+  "1) Create each child in order: slide-1 with image_url + is_carousel_item=true; slides 2-8 with video_url + is_carousel_item=true (no media_type).",
+  "2) Poll every child with INSTAGRAM_GET_POST_STATUS until FINISHED (videos take ~30-70 s).",
+  "3) Create parent with INSTAGRAM_CREATE_CAROUSEL_CONTAINER, children in order, caption from caption.txt.",
+  "4) Poll parent until FINISHED, then publish ONCE with INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH."
+ ],
+ "tested_draft": {
+  "date": "2026-10-10",
+  "parent": "18495671038100078",
+  "status": "FINISHED",
+  "note": "Unpublished test draft; expires before publish time, recreate at publish."
+ }
 }
