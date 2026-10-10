@@ -5,13 +5,15 @@
  "publish_at_local": "2026-10-10 17:00 Asia/Muscat",
  "publish_at_utc": "2026-10-10T13:00:00Z",
  "images": [
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-1.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-2.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-3.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-4.jpg",
-  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/f21df10c8efa5dea4bf121cdf718be26a39bbac7/posts/2026-10-10-free-tools/slide-5.jpg"
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/dea920866185d3511718c641235f3b283653cb64/posts/2026-10-10-free-tools/slide-1.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/dea920866185d3511718c641235f3b283653cb64/posts/2026-10-10-free-tools/slide-2.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/dea920866185d3511718c641235f3b283653cb64/posts/2026-10-10-free-tools/slide-3.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/dea920866185d3511718c641235f3b283653cb64/posts/2026-10-10-free-tools/slide-4.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/dea920866185d3511718c641235f3b283653cb64/posts/2026-10-10-free-tools/slide-5.jpg"
  ],
  "caption_file": "caption.txt",
- "draft_container_id": "18495585070100078",
- "status": "scheduled"
+ "draft_container_id": "18495662770100078",
+ "status": "scheduled",
+ "superseded_container_id": "18495585070100078",
+ "note": "Draft recreated 10 Oct 14:16 Muscat with Arabic numerals on slides 2-4 and caption. Publish 18495662770100078, NOT the superseded id."
 }
