@@ -1,0 +1,265 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><style>
+:root{--navy:#0b1a33;--panel:#11284d;--red:#e01e3c;--soft:#c9d3e6;--muted:#8796b0;--line:rgba(255,255,255,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#444;font-family:'Tajawal',sans-serif;color:#fff}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;background-color:var(--navy);
+  background-image:radial-gradient(rgba(255,255,255,.08) 2px,transparent 2px);background-size:38px 38px}
+.s::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 60% at 50% 45%,transparent 40%,rgba(5,12,26,.55));pointer-events:none}
+.en,.n{font-family:'Space Grotesk',sans-serif}
+.en{direction:ltr;unicode-bidi:isolate}
+.handle{position:absolute;bottom:50px;left:84px;font-family:'Space Grotesk';font-weight:700;font-size:28px;color:rgba(255,255,255,.5);direction:ltr;z-index:5}
+.pg{position:absolute;bottom:50px;right:84px;font-family:'Space Grotesk';font-weight:700;font-size:26px;color:rgba(255,255,255,.35);z-index:5;direction:ltr}
+.src{position:absolute;bottom:108px;right:84px;left:84px;font-size:22px;color:var(--muted);z-index:5}
+h1,h2{position:absolute;right:84px;left:84px;z-index:3;font-weight:900;line-height:1.22}
+h1{top:110px;font-size:104px}
+h2{top:96px;font-size:76px}
+.red{color:var(--red)}
+.sub{position:absolute;right:84px;left:84px;z-index:3;font-size:40px;font-weight:700;color:var(--soft);line-height:1.5}
+.z{position:relative;z-index:3}
+/* cover */
+.swipe{position:absolute;bottom:112px;right:84px;z-index:4;display:flex;align-items:center;gap:16px;font-size:36px;font-weight:800;color:#fff}
+.swipe i{display:block;width:70px;height:4px;background:var(--red);position:relative}
+.swipe i::after{content:"";position:absolute;left:-2px;top:-9px;border-top:11px solid transparent;border-bottom:11px solid transparent;border-right:16px solid var(--red)}
+.tag{position:absolute;z-index:4;background:var(--red);color:#fff;font-weight:900;font-size:40px;padding:18px 30px 14px;border-radius:14px;transform:rotate(-8deg);box-shadow:0 14px 30px rgba(0,0,0,.35)}
+.tag::before{content:"";position:absolute;right:22px;top:50%;width:16px;height:16px;margin-top:-8px;border-radius:50%;background:var(--navy)}
+.tag span{margin-right:30px}
+/* tiers */
+.tiers{position:absolute;right:84px;left:84px;bottom:220px;height:700px;display:flex;align-items:flex-end;gap:36px;z-index:3}
+.tier{flex:1;display:flex;flex-direction:column;align-items:center;gap:18px}
+.tier .cap{font-size:30px;font-weight:700;color:var(--soft);text-align:center;line-height:1.35}
+.tier .bar{width:100%;border-radius:22px 22px 8px 8px;background:#fff;position:relative;display:flex;align-items:flex-start;justify-content:center;padding-top:26px}
+.tier .bar.hot{background:var(--red)}
+.tier .bar b{font-family:'Space Grotesk';font-size:96px;line-height:1;color:var(--navy)}
+.tier .bar.hot b{color:#fff}
+.tier .bar small{position:absolute;top:130px;font-size:30px;font-weight:800;color:var(--navy)}
+.tier .bar.hot small{color:#fff}
+.unit{position:absolute;right:84px;left:84px;top:300px;font-size:34px;font-weight:700;color:var(--soft);z-index:3}
+/* batteries */
+.bats{position:absolute;right:84px;left:84px;top:430px;display:flex;flex-direction:column;gap:64px;z-index:3}
+.bat{display:flex;align-items:center;gap:34px}
+.bat .lbl{width:260px;font-size:40px;font-weight:800;line-height:1.3}
+.bat .lbl small{display:block;font-size:28px;font-weight:500;color:var(--muted)}
+.bat .cell{flex:1;height:170px;border:5px solid rgba(255,255,255,.85);border-radius:22px;position:relative;padding:10px}
+.bat .cell::after{content:"";position:absolute;left:-22px;top:50%;width:14px;height:56px;margin-top:-28px;background:rgba(255,255,255,.85);border-radius:6px 0 0 6px}
+.bat .cell i{display:block;height:100%;border-radius:12px;background:#fff;width:100%}
+.bat.hot .cell i{background:var(--red)}
+.bat .cell b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-size:74px;color:var(--navy);gap:14px}
+.bat.hot .cell b{color:#fff}
+.bat .cell b em{font-family:'Tajawal';font-style:normal;font-weight:800;font-size:38px}
+/* per 100 km rows */
+.rows{position:absolute;right:84px;left:84px;top:470px;display:flex;flex-direction:column;gap:64px;z-index:3}
+.row{display:grid;grid-template-columns:260px 1fr 290px;align-items:center;gap:28px}
+.row .k{font-size:40px;font-weight:800;line-height:1.25}
+.row .k small{display:block;font-size:28px;color:var(--muted);font-weight:500}
+.row .track{height:96px;border-radius:12px;background:rgba(255,255,255,.07);position:relative;overflow:hidden}
+.row .track i{position:absolute;right:0;top:0;bottom:0;border-radius:12px;background:#fff}
+.row.hot .track i{background:var(--red)}
+.row.fuel .track i{background:repeating-linear-gradient(135deg,#c9d3e6 0 14px,#aab6cc 14px 28px)}
+.row .v{font-family:'Space Grotesk';font-weight:700;font-size:70px;text-align:left;direction:ltr}
+.row .v em{font-family:'Tajawal';font-style:normal;font-size:30px;font-weight:800;margin-left:10px}
+.road{position:absolute;left:84px;top:110px;z-index:3}
+.assume{position:absolute;right:84px;left:84px;bottom:190px;font-size:28px;color:var(--soft);line-height:1.6;z-index:3;border-right:5px solid var(--red);padding-right:22px}
+/* petrol calc */
+.calc{position:absolute;right:84px;left:84px;top:420px;z-index:3;display:flex;flex-direction:column;gap:26px}
+.eq{display:flex;align-items:center;gap:26px;font-size:44px;font-weight:800}
+.eq .box{background:var(--panel);border:2px solid var(--line);border-radius:22px;padding:26px 34px;text-align:center;min-width:250px}
+.eq .box b{display:block;font-family:'Space Grotesk';font-size:84px;line-height:1.05}
+.eq .box small{display:block;font-size:28px;color:var(--soft);font-weight:700;margin-top:8px}
+.eq .op{font-family:'Space Grotesk';font-size:70px;color:var(--muted)}
+.eq .box.res{background:#fff;color:var(--navy)}
+.eq .box.res small{color:var(--navy)}
+/* tips */
+.tips{position:absolute;right:84px;left:84px;top:430px;z-index:3;display:flex;flex-direction:column;gap:40px}
+.tip{display:flex;gap:32px;align-items:flex-start;background:var(--panel);border:2px solid var(--line);border-radius:28px;padding:44px 40px}
+.tip .ic{flex:none;width:86px;height:86px;border-radius:22px;background:var(--red);display:flex;align-items:center;justify-content:center}
+.tip b{display:block;font-size:48px;font-weight:900;margin-bottom:10px}
+.tip p{font-size:35px;color:var(--soft);line-height:1.55;font-weight:500}
+/* end */
+.mini{position:absolute;right:84px;left:84px;top:430px;z-index:3;background:var(--panel);border:2px solid var(--line);border-radius:28px;padding:34px 40px}
+.mini h3{font-size:36px;font-weight:800;color:var(--soft);margin-bottom:18px}
+.mini .mr{display:flex;justify-content:space-between;align-items:baseline;padding:24px 0;border-top:1px solid var(--line);font-size:40px;font-weight:800}
+.mini .mr b{font-family:'Space Grotesk';font-size:58px;direction:ltr}
+.mini .mr.hot b{color:var(--red)}
+.save{position:absolute;right:84px;left:84px;bottom:120px;z-index:3;display:flex;align-items:center;gap:22px;font-size:40px;font-weight:900}
+.save .ic{width:84px;height:84px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center}
+/* cover photo */
+.ev{position:absolute;z-index:2;filter:drop-shadow(0 34px 50px rgba(0,0,0,.55));
+  -webkit-mask-image:linear-gradient(#000 84%,transparent 99%);mask-image:linear-gradient(#000 84%,transparent 99%)}
+.glow{position:absolute;left:-120px;top:520px;width:860px;height:900px;z-index:1;background:radial-gradient(closest-side,rgba(120,150,210,.16),transparent)}
+.callout{position:absolute;z-index:4;width:0;height:0}
+.callout i{position:absolute;left:-11px;top:-11px;width:22px;height:22px;border-radius:50%;background:var(--red);box-shadow:0 0 0 6px rgba(224,30,60,.28)}
+.callout span{position:absolute;left:0;top:-1.5px;width:200px;height:3px;background:#fff}
+.callout .ct{position:absolute;left:166px;top:-72px;width:354px;text-align:right}
+.callout .ct b{display:block;font-size:118px;line-height:1;font-weight:700;direction:ltr;text-align:right}
+.callout .ct small{display:block;font-size:36px;font-weight:800;color:var(--soft);margin-top:8px}
+/* photo cover */
+.s.photo{background:#000 url(assets/oman_chargers.png) center/cover no-repeat}
+.s.photo::after{display:none}
+.s.photo .gb{position:absolute;left:0;right:0;bottom:0;height:230px;z-index:1;background:linear-gradient(to top,rgba(11,26,51,.92) 0%,rgba(11,26,51,.62) 45%,rgba(11,26,51,0) 100%)}
+.s.photo .hk{position:absolute;top:110px;right:80px;left:80px;z-index:3;font-weight:900;font-size:84px;display:flex;flex-direction:column;align-items:flex-start}
+.s.photo .hl{display:inline-block;padding:6px 22px 0;line-height:1.18;margin-bottom:12px}
+.s.photo .hl.w{background:#fff;color:var(--navy)}
+.s.photo .hl.r{background:var(--red);color:#fff}
+.s.photo .foot-line{position:absolute;left:84px;right:84px;bottom:98px;height:2px;background:rgba(255,255,255,.18);z-index:4}
+
+/* ===== theme C (light) ===== */
+.thC{background:linear-gradient(180deg,#cfe2f5 0%,#e6effa 42%,#f4f7fc 100%)!important;color:var(--navy)}
+.thC::after{display:none}
+.thC h2{display:flex;flex-direction:column;align-items:flex-start;font-size:72px;line-height:1.18;top:96px}
+.thC h2 .hl{display:inline-block;padding:6px 22px 0;margin-bottom:12px}
+.hl.nv{background:var(--navy);color:#fff}
+.hl.r{background:var(--red);color:#fff}
+.thC .unit{color:#4f6386;top:318px}
+.thC .foot{position:absolute;left:0;right:0;bottom:0;height:230px;z-index:4;background:linear-gradient(to top,rgba(11,26,51,.92) 0%,rgba(11,26,51,.62) 45%,rgba(11,26,51,0) 100%)}
+.thC .fl{position:absolute;left:84px;right:84px;bottom:98px;height:2px;background:rgba(255,255,255,.22);z-index:5}
+.thC .pg{bottom:46px;color:rgba(255,255,255,.7);z-index:6}
+.thC .handle{bottom:46px;color:rgba(255,255,255,.75);z-index:6}
+.thC .note{position:absolute;bottom:118px;right:84px;left:84px;font-size:23px;color:rgba(255,255,255,.85);z-index:6}
+/* tiers */
+.thC .tier .bar{background:var(--navy)}
+.thC .tier .bar b,.thC .tier .bar small{color:#fff}
+.thC .tier .bar.hot{background:var(--red)}
+.thC .tier .cap{color:var(--navy)}
+/* batteries */
+.thC .bat .lbl small{color:#4f6386}
+.thC .bat .cell{border-color:var(--navy)}
+.thC .bat .cell::after{background:var(--navy)}
+.thC .bat .cell i{background:var(--navy)}
+.thC .bat.hot .cell{border-color:var(--red)}
+.thC .bat.hot .cell::after{background:var(--red)}
+.thC .bat.hot .cell i{background:var(--red)}
+.thC .bat .cell b{color:#fff}
+/* rows */
+.thC .row .k small{color:#4f6386}
+.thC .row .track{background:rgba(11,26,51,.08)}
+.thC .row .track i{background:var(--navy)}
+.thC .row.hot .track i{background:var(--red)}
+.thC .row.fuel .track i{background:repeating-linear-gradient(135deg,#8ea2bf 0 14px,#b3c2d6 14px 28px)}
+.thC .row .v{color:var(--navy)}
+.thC .row.hot .v{color:var(--red)}
+.thC .assume{color:var(--navy);font-weight:600}
+.thC .assume b{color:var(--red)!important}
+/* petrol calc */
+.thC .eq .box{background:#fff;border-color:rgba(11,26,51,.1);box-shadow:0 12px 30px rgba(11,26,51,.08)}
+.thC .eq .box small{color:#4f6386}
+.thC .eq .op{color:#7d8fab}
+.thC .eq .box.res{background:var(--navy);color:#fff}
+.thC .eq .box.res small{color:#c9d3e6}
+.thC .sub{color:#4f6386}
+/* tips */
+.thC .tip{background:#fff;border-color:rgba(11,26,51,.08);box-shadow:0 12px 30px rgba(11,26,51,.07)}
+.thC .tip p{color:#4f6386}
+/* end */
+.thC .mini{background:#fff;border-color:rgba(11,26,51,.08);box-shadow:0 12px 30px rgba(11,26,51,.07)}
+.thC .mini h3{color:#4f6386}
+.thC .mini .mr{border-top-color:rgba(11,26,51,.1)}
+.thC .save{color:var(--navy)}
+.thC .tips{top:360px;gap:28px}
+.thC .tip{padding:36px 38px}
+.thC .mini{top:390px}
+#d1s8 .mini{top:350px}
+.thC .mini .mr{padding:20px 0}
+</style></head><body>
+
+<!-- 1 cover -->
+<div class="s photo" id="d1s1"><div class="gb"></div>
+  <div class="hk lines">
+    <span class="hl w">الشحن السريع</span><span class="hl w">للسيارة الكهربائية</span><span class="hl r">صار أغلى من البنزين</span>
+  </div>
+  <div class="foot-line"></div>
+  <div class="swipe" style="bottom:40px"><span>كم صار يكلفك؟ اسحب</span><i></i></div>
+  <div class="handle" style="bottom:46px;color:rgba(255,255,255,.75)">@ZIYADALBADI</div>
+</div>
+
+<!-- 2 tiers -->
+<div class="s thC" id="d1s2">
+  <h2><span class="hl nv">ثلاث تسعيرات</span><span class="hl nv">حسب سرعة الشاحن</span></h2>
+  <div class="unit">بيسة لكل كيلوواط ساعة</div>
+  <div class="tiers">
+    <div class="tier"><div class="bar" style="height:240px"><b class="n">50</b><small>بيسة</small></div><div class="cap">حتى 90<br>كيلوواط</div></div>
+    <div class="tier"><div class="bar" style="height:410px"><b class="n">90</b><small>بيسة</small></div><div class="cap">من 91 إلى 180<br>كيلوواط</div></div>
+    <div class="tier"><div class="bar hot" style="height:560px"><b class="n">120</b><small>بيسة</small></div><div class="cap">181 كيلوواط<br>فأكثر</div></div>
+  </div>
+  <div class="note">المصدر: وزارة النقل والاتصالات وتقنية المعلومات · تسري من 1 أكتوبر 2026</div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div><div class="pg">2/8</div>
+</div>
+
+<!-- 3 full battery -->
+<div class="s thC" id="d1s3">
+  <h2><span class="hl nv">كم تكلّف تعبئة</span><span class="hl nv">بطارية كاملة؟</span></h2>
+  <div class="unit">مثال: بطارية 75 كيلوواط ساعة</div>
+  <div class="bats">
+    <div class="bat"><div class="lbl">شاحن بطيء<small>حتى 90 كيلوواط</small></div><div class="cell"><i></i><b><span>3.750</span><em>ر.ع</em></b></div></div>
+    <div class="bat"><div class="lbl">شاحن متوسط<small>91 إلى 180</small></div><div class="cell"><i></i><b><span>6.750</span><em>ر.ع</em></b></div></div>
+    <div class="bat hot"><div class="lbl">شاحن سريع<small>181 فأكثر</small></div><div class="cell"><i></i><b><span>9.000</span><em>ر.ع</em></b></div></div>
+  </div>
+  
+  <div class="foot"></div><div class="fl"></div><div class="note">تقريبي، ولا يشمل الطاقة الضائعة أثناء الشحن.</div><div class="handle">@ZIYADALBADI</div><div class="pg">3/8</div>
+</div>
+
+<!-- 4 per 100 km -->
+<div class="s thC" id="d1s4">
+  <h2><span class="hl nv">والأهم:</span><span class="hl r">كم يكلفك كل <span class="n">100</span> كم؟</span></h2>
+  <div class="rows">
+    <div class="row"><div class="k">شاحن بطيء<small>حتى 90 كيلوواط</small></div><div class="track"><i style="width:41.7%"></i></div><div class="v">0.900<em>ر.ع</em></div></div>
+    <div class="row"><div class="k">شاحن متوسط<small>91 إلى 180</small></div><div class="track"><i style="width:75%"></i></div><div class="v">1.620<em>ر.ع</em></div></div>
+    <div class="row hot"><div class="k">شاحن سريع<small>181 فأكثر</small></div><div class="track"><i style="width:100%"></i></div><div class="v">2.160<em>ر.ع</em></div></div>
+  </div>
+  <div class="assume" style="bottom:270px">على أساس سيارة كهربائية تصرف 18 كيلوواط ساعة لكل 100 كم.</div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div><div class="pg">4/8</div>
+</div>
+
+<!-- 5 petrol -->
+<div class="s thC" id="d1s5">
+  <h2><span class="hl nv">وسيارة البنزين؟</span></h2>
+  <div class="calc">
+    <div class="eq">
+      <div class="box" style="flex:1"><b>8</b><small>لترات لكل 100 كم</small></div>
+      <div class="op">×</div>
+      <div class="box" style="flex:1"><b>229</b><small>بيسة للتر (عادي)</small></div>
+    </div>
+    <div class="eq"><div class="op">=</div><div class="box res" style="flex:1"><b>1.832</b><small>ر.ع لكل 100 كم</small></div></div>
+  </div>
+  <div class="sub" style="top:900px">يعني البنزين في النص:<br>أغلى من الشحن البطيء والمتوسط..<br><span class="red" style="font-weight:900">وأرخص من أسرع شاحن.</span></div>
+  <div class="note">سعر البنزين العادي M91 المعتمد لشهر سبتمبر 2026</div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div><div class="pg">5/8</div>
+</div>
+
+<!-- 6 comparison -->
+<div class="s thC" id="d1s6">
+  <h2><span class="hl nv">الشحن البطيء أرخص</span><span class="hl r">بأكثر من الضعف</span></h2>
+  <div class="rows" style="top:400px;gap:26px">
+    <div class="row"><div class="k">شاحن بطيء</div><div class="track"><i style="width:41.7%"></i></div><div class="v">0.900<em>ر.ع</em></div></div>
+    <div class="row"><div class="k">شاحن متوسط</div><div class="track"><i style="width:75%"></i></div><div class="v">1.620<em>ر.ع</em></div></div>
+    <div class="row fuel"><div class="k">بنزين</div><div class="track"><i style="width:84.8%"></i></div><div class="v">1.832<em>ر.ع</em></div></div>
+    <div class="row hot"><div class="k">شاحن سريع</div><div class="track"><i style="width:100%"></i></div><div class="v">2.160<em>ر.ع</em></div></div>
+  </div>
+  <div class="assume" style="bottom:255px"><b>أسرع شاحن أغلى من البنزين</b> لهذا المثال.<br>التكلفة لكل 100 كم · كهربائية 18 كيلوواط ساعة · بنزين 8 لترات</div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div><div class="pg">6/8</div>
+</div>
+
+<!-- 7 tips -->
+<div class="s thC" id="d1s7">
+  <h2><span class="hl nv">اشحن على البطيء،</span><span class="hl nv">واترك السريع للسفر</span></h2>
+  <div class="tips">
+    <div class="tip"><div class="ic"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></div><div><b>الشحن اليومي</b><p>في البيت أو على الشواحن البطيئة، والفرق يبان آخر الشهر.</p></div></div>
+    <div class="tip"><div class="ic"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><div><b>الشاحن السريع</b><p>للطريق الطويل أو إذا كنت مستعجل فقط.</p></div></div>
+    <div class="tip"><div class="ic"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M12 7v4"/><circle cx="12" cy="15" r="1.4" fill="#fff"/></svg></div><div><b>قبل ما تشحن</b><p>تطبيق الوزارة الوطني يعرض الشواحن وسرعتها ورسومها.</p></div></div>
+  </div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div><div class="pg">7/8</div>
+</div>
+
+<!-- 8 CTA -->
+<div class="s thC" id="d1s8">
+  <h2><span class="hl nv">أرسلها لصديق</span><span class="hl nv">عنده سيارة كهربائية</span></h2>
+    <div class="mini">
+    <h3>التكلفة لكل 100 كم (ر.ع)</h3>
+    <div class="mr"><span>شاحن بطيء</span><b>0.900</b></div>
+    <div class="mr"><span>شاحن متوسط</span><b>1.620</b></div>
+    <div class="mr"><span>بنزين عادي</span><b>1.832</b></div>
+    <div class="mr hot"><span>شاحن سريع</span><b>2.160</b></div>
+  </div>
+  <div class="save" style="bottom:245px"><div class="ic"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"><path d="M6 3h12v18l-6-5-6 5z"/></svg></div><span>احفظه قبل مشوارك الجاي</span></div>
+  <div class="foot"></div><div class="fl"></div><div class="handle">@ZIYADALBADI</div>
+</div>
+</body></html>

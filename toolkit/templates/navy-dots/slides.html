@@ -1,0 +1,111 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><style>
+:root{--navy:#0b1a33;--red:#e01e3c;--soft:#c9d3e6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#444;font-family:'Tajawal',sans-serif;color:#fff}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;background-color:var(--navy);
+  background-image:radial-gradient(rgba(255,255,255,.085) 2px,transparent 2px);background-size:38px 38px}
+.s::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 60% at 50% 45%,transparent 40%,rgba(5,12,26,.55));pointer-events:none}
+.en{font-family:'Space Grotesk',sans-serif;direction:ltr;unicode-bidi:isolate}
+.handle{position:absolute;bottom:50px;left:70px;font-family:'Space Grotesk';font-weight:700;font-size:28px;color:rgba(255,255,255,.5);direction:ltr;z-index:5}
+.win{position:absolute;background:#e9ecf1;border-radius:22px;overflow:hidden;box-shadow:0 34px 80px rgba(0,0,0,.55);z-index:2}
+.win .bar{height:60px;background:#dfe3ea;display:flex;align-items:center;padding:0 24px;gap:11px;direction:ltr;border-bottom:1px solid #cfd4dc}
+.win .bar i{width:17px;height:17px;border-radius:50%;background:#b9bfca;display:block}
+.win .bar b{font-family:'Space Grotesk';font-weight:700;font-size:25px;color:#4d5a73;margin-left:16px}
+.win .body{position:absolute;top:60px;right:0;left:0;bottom:0;overflow:hidden;background:#000}
+.win .body img{width:100%;height:100%;object-fit:cover;object-position:left top;display:block}
+.st{position:absolute;width:184px;height:184px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;
+  font-weight:900;font-size:46px;color:#fff;transform:rotate(-12deg);box-shadow:0 12px 32px rgba(0,0,0,.4);z-index:4}
+
+/* cover */
+.cv h1{position:absolute;top:100px;right:84px;left:84px;font-weight:900;font-size:98px;line-height:1.2;z-index:3}
+.cv h1 span{color:var(--red)}
+.sub{position:absolute;bottom:128px;right:84px;font-size:42px;font-weight:700;color:var(--soft);z-index:3}
+
+/* tool slides */
+.hd{position:absolute;top:92px;right:80px;left:80px;display:flex;align-items:flex-end;gap:34px;z-index:3}
+.no{font-family:'Space Grotesk';font-weight:700;font-size:170px;line-height:.78;color:var(--red)}
+.nm{font-family:'Space Grotesk';font-weight:700;font-size:100px;line-height:1;direction:ltr;text-align:right}
+.alt{font-size:42px;font-weight:800;color:var(--soft);margin-top:14px}
+.t .win{top:330px;right:80px;width:920px;height:720px}
+.chips{position:absolute;right:80px;left:80px;top:1090px;display:flex;flex-wrap:wrap;gap:16px;z-index:3}
+.chips>span{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:68px;padding:5px 32px 0;line-height:1;font-size:33px;font-weight:700;border:2.5px solid rgba(255,255,255,.32);border-radius:34px;background:rgba(11,26,51,.6)}
+.chips>span .en{font-size:30px}
+
+/* before / after */
+.ba{position:absolute;inset:0}
+.ba .div{position:absolute;top:0;bottom:0;width:4px;background:#fff;left:calc(34.08% - 2px)}
+.ba .knob{position:absolute;top:50%;left:34.08%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:#fff;
+  box-shadow:0 6px 18px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;gap:6px;direction:ltr}
+.ba .knob::before,.ba .knob::after{content:"";border-top:9px solid transparent;border-bottom:9px solid transparent}
+.ba .knob::before{border-right:12px solid var(--navy)}
+.ba .knob::after{border-left:12px solid var(--navy)}
+.ba .lb{position:absolute;bottom:24px;font-size:30px;font-weight:800;background:rgba(11,26,51,.82);padding:6px 20px;border-radius:30px}
+.ba .lb.b4{right:24px}.ba .lb.af{left:24px}
+.ba .lb small{font-family:'Space Grotesk';font-weight:700;font-size:24px;color:var(--soft);margin-right:10px;direction:ltr;unicode-bidi:isolate;display:inline-block}
+
+/* closing */
+.end h1{position:absolute;top:250px;right:84px;left:84px;font-weight:900;font-size:112px;line-height:1.2;z-index:3}
+.end .cta{position:absolute;top:420px;right:84px;left:84px;font-size:48px;font-weight:700;color:var(--soft);line-height:1.5;z-index:3}
+.end .cta b{color:#fff;font-weight:900}
+.end .send{position:absolute;top:580px;right:84px;display:flex;align-items:center;gap:18px;background:var(--red);border-radius:60px;padding:18px 38px 18px 30px;
+  font-size:40px;font-weight:900;z-index:3}
+.end .send svg{width:44px;height:44px}
+.end .mini{position:absolute;bottom:150px;right:84px;left:84px;display:flex;gap:22px;z-index:3}
+.end .mini .win{position:relative;flex:1;height:330px}
+.end .mini .win .bar{height:44px;padding:0 16px;gap:8px}
+.end .mini .win .bar i{width:12px;height:12px}
+.end .mini .win .bar b{font-size:19px;margin-left:8px}
+.end .mini .win .body{top:44px}
+.no.ar{font-family:'Tajawal',sans-serif;font-weight:900;font-size:190px;line-height:.8}
+</style></head><body>
+
+<!-- 1 cover -->
+<div class="s cv" id="s1">
+  <h1>3 أدوات مجانية<br><span>تغنيك عن المدفوعة</span></h1>
+  <div class="win" style="top:485px;right:330px;width:640px;height:450px;transform:rotate(4deg)"><div class="bar"><i></i><i></i><i></i><b>upscayl.org</b></div><div class="body"><img src="assets/upscayl_win.png"></div></div>
+  <div class="win" style="top:565px;right:215px;width:640px;height:450px;transform:rotate(-2.5deg)"><div class="bar"><i></i><i></i><i></i><b>edits.instagram.com</b></div><div class="body"><img src="assets/edits.png"></div></div>
+  <div class="win" style="top:650px;right:110px;width:660px;height:460px;transform:rotate(1deg)"><div class="bar"><i></i><i></i><i></i><b>photopea.com</b></div><div class="body"><img src="assets/photopea.png"></div></div>
+  <div class="st" style="top:575px;left:88px">مجانًا</div>
+  <div class="sub">احفظها قبل أن تدفع ريالًا</div>
+  <div class="handle">@ZIYADALBADI</div>
+</div>
+
+<!-- 2 Photopea -->
+<div class="s t" id="s2">
+  <div class="hd"><div class="no ar">١</div><div><div class="nm">Photopea</div><div class="alt">بديل فوتوشوب، مجانًا</div></div></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><b>photopea.com</b></div><div class="body"><img src="assets/photopea.png"></div></div>
+  <div class="chips"><span>في المتصفح بدون تحميل</span><span>يفتح ملفات <span class="en">PSD</span></span><span>إزالة الخلفية بضغطة</span></div>
+  <div class="handle">@ZIYADALBADI</div>
+</div>
+
+<!-- 3 Edits -->
+<div class="s t" id="s3">
+  <div class="hd"><div class="no ar">٢</div><div><div class="nm">Edits</div><div class="alt">بديل تطبيقات المونتاج المدفوعة</div></div></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><b>edits.instagram.com</b></div><div class="body"><img src="assets/edits.png"></div></div>
+  <div class="chips"><span>من <span class="en">Meta</span></span><span>بدون علامة مائية</span><span>قوالب ومؤثرات ذكية</span></div>
+  <div class="handle">@ZIYADALBADI</div>
+</div>
+
+<!-- 4 Upscayl -->
+<div class="s t" id="s4">
+  <div class="hd"><div class="no ar">٣</div><div><div class="nm">Upscayl</div><div class="alt">بديل <span class="en">Topaz Gigapixel</span>، مجانًا</div></div></div>
+  <div class="win"><div class="bar"><i></i><i></i><i></i><b>upscayl.org</b></div><div class="body"><img src="assets/upscayl_win.png">
+    <div class="ba"><div class="div"></div><div class="knob"></div>
+      <div class="lb b4">قبل<small>125×75</small></div><div class="lb af">بعد</div></div></div></div>
+  <div class="chips"><span>تكبير حتى 16 ضعفًا</span><span>مفتوح المصدر</span><span>للكمبيوتر</span></div>
+  <div class="handle">@ZIYADALBADI</div>
+</div>
+
+<!-- 5 closing -->
+<div class="s end" id="s5">
+  <h1>جرّبت واحدة منها؟</h1>
+  <div class="cta">أرسلها <b>لصديق يدفع اشتراكات</b> كل شهر</div>
+  <div class="send"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><path d="M21 3 3 10.5l7 2.5 2.5 7z"/><path d="M21 3 10 13"/></svg>أرسل</div>
+  <div class="mini">
+    <div class="win"><div class="bar"><i></i><i></i><i></i><b>photopea.com</b></div><div class="body"><img src="assets/photopea.png"></div></div>
+    <div class="win"><div class="bar"><i></i><i></i><i></i><b>edits</b></div><div class="body"><img src="assets/edits.png"></div></div>
+    <div class="win"><div class="bar"><i></i><i></i><i></i><b>upscayl.org</b></div><div class="body"><img src="assets/upscayl_win.png" style="object-position:30% 20%"></div></div>
+  </div>
+  <div class="handle">@ZIYADALBADI</div>
+</div>
+</body></html>
