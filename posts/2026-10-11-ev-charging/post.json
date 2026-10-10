@@ -1,0 +1,19 @@
+{
+ "type": "carousel",
+ "account": "@ziyadalbadi",
+ "ig_user_id": "17841403002319163",
+ "publish_at_local": "2026-10-11 20:00 Asia/Muscat",
+ "publish_at_utc": "2026-10-11T16:00:00Z",
+ "images": [
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-1.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-2.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-3.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-4.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-5.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-6.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-7.jpg",
+  "https://raw.githubusercontent.com/ziyadalbadii/ig-media/852bd646d041fd71852d524093c48db92ee5266f/posts/2026-10-11-ev-charging/slide-8.jpg"
+ ],
+ "caption_file": "caption.txt",
+ "status": "scheduled"
+}
