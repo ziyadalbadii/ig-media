@@ -5,7 +5,7 @@
  "publish_at_local": "2026-10-11 17:00 Asia/Muscat",
  "publish_at_utc": "2026-10-11T13:00:00Z",
  "caption_file": "caption.txt",
- "status": "scheduled",
+ "status": "published",
  "items": [
   {
    "type": "image",
@@ -51,5 +51,8 @@
   "parent": "18495671038100078",
   "status": "FINISHED",
   "note": "Unpublished test draft; expires before publish time, recreate at publish."
- }
+ },
+ "media_id": "17870954793647459",
+ "permalink": "https://www.instagram.com/p/DeWuREyDGWc/",
+ "published_at_utc": "2026-10-11T13:04:10Z"
 }
