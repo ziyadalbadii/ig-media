@@ -1,4 +1,14 @@
-# روابط ملخص أسبوع الذكاء الاصطناعي (12 أكتوبر 2026)
+# روابط زياد | تقنية
+
+## أدوات الطلاب (13 أكتوبر 2026)
+- **١. Consensus** (للبحوث والتقارير): https://consensus.app
+- **٢. ChatGPT** (فعّل «وضع الدراسة» في المحادثة): https://chatgpt.com
+- **٣. Claude** (للعروض التقديمية والتصاميم): https://claude.ai
+- **٤. Gemini Notebook**، اسمه القديم NotebookLM (للمراجعة قبل الاختبار): https://notebooklm.google.com
+
+---
+
+## روابط ملخص أسبوع الذكاء الاصطناعي (12 أكتوبر 2026)
 
 1. GPT-6 و Intelligent UI: https://openai.com/index/gpt-6-for-everyone/
 2. Nano Banana 2.1: https://deepmind.google/models/gemini-image/flash/
