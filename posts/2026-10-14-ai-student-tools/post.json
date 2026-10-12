@@ -12,5 +12,10 @@
     "https://claude.com/product/design",
     "https://consensus.app"
   ],
-  "review": {"gate_v1": "34/50", "gate_v2": "39/50"}
+  "review": {
+    "gate_v1": "34/50",
+    "gate_v2": "39/50",
+    "gate_v3": "40/50 (cover: graduation cap instead of newspaper)"
+  },
+  "image_credit": "Cover cap: generated with TAAFT Image Generator (theresanaiforthat.com), free for commercial use"
 }
