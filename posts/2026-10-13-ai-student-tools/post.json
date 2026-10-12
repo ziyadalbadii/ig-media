@@ -1,7 +1,7 @@
 {
   "type": "carousel",
   "title": "طالب جامعة؟ 4 أدوات ذكاء اصطناعي ببلاش",
-  "status": "ready",
+  "status": "scheduled",
   "slides": 7,
   "theme": "news-bulletin (weekly summary)",
   "cta_keyword": "أدوات",
@@ -17,5 +17,42 @@
     "gate_v2": "39/50",
     "gate_v3": "40/50 (cover: graduation cap instead of newspaper)"
   },
-  "image_credit": "Cover cap: generated with TAAFT Image Generator (theresanaiforthat.com), free for commercial use"
+  "image_credit": "Cover cap: generated with TAAFT Image Generator (theresanaiforthat.com), free for commercial use",
+  "account": "@ziyadalbadi",
+  "ig_user_id": "17841403002319163",
+  "publish_at_local": "2026-10-13 17:00 Asia/Muscat",
+  "publish_at_utc": "2026-10-13T13:00:00Z",
+  "caption_file": "caption.txt",
+  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/caption.txt",
+  "approved": "زياد 13 أكتوبر 00:24: «جدول هالكاروسيل لباكر وشغل الرد التلقائي»",
+  "items": [
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-1.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-2.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-3.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-4.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-5.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-6.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-7.jpg"
+    }
+  ]
 }
