@@ -1,0 +1,12 @@
+{
+  "type": "carousel",
+  "title": "كيف تستخدم كلود في التصميم",
+  "status": "ready",
+  "slides": 8,
+  "cta_keyword": "تصميم",
+  "sources": [
+    "https://anthropic.com/news/claude-design-anthropic-labs",
+    "https://pricingsaas.com/news/article/anthropic-brings-claude-design-slides-and-docs-to-the-free-plan"
+  ],
+  "image_credit": "Claude Design screenshot: Anthropic announcement (17 Apr 2026)"
+}
