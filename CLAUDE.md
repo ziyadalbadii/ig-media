@@ -9,6 +9,7 @@ Media and tooling for Ziyad's Instagram @ziyadalbadi (Oman; Arabic; AI, tech, ca
 - Content tracker: `plan/ziyad-content-schedule.xlsx`.
 - This repo is public (Instagram fetches media from raw.githubusercontent.com). Never commit secrets or private data.
 - Captions are Arabic only (mixed Arabic/English gets scrambled on Instagram): write brand names in Arabic.
+- Hooks: build every hook (carousel cover, reel opening, caption first line) from a pattern in `toolkit/hooks.md`. Ziyad adopted it for all content. Offer 2–3 hooks from different patterns and tag each with its pattern number.
 
 ## Fixed review gate (every idea, carousel and reel; never skip)
 Run it and show the result to Ziyad before presenting anything; fix what fails first.
