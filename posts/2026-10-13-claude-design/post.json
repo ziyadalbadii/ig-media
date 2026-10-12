@@ -5,8 +5,18 @@
   "slides": 8,
   "cta_keyword": "تصميم",
   "sources": [
-    "https://anthropic.com/news/claude-design-anthropic-labs",
-    "https://pricingsaas.com/news/article/anthropic-brings-claude-design-slides-and-docs-to-the-free-plan"
+    "https://claude.com/product/design",
+    "https://anthropic.com/news/claude-design-anthropic-labs"
   ],
-  "image_credit": "Claude Design screenshot: Anthropic announcement (17 Apr 2026)"
+  "image_credit": "Claude Design screenshot: Anthropic announcement (17 Apr 2026)",
+  "prompts_page": "posts/2026-10-13-claude-design/prompts.md",
+  "review": {
+    "gate_v1": "34/50",
+    "gate_v3": "44/50",
+    "virality_preview16s": {
+      "v1": 53,
+      "v3": 50
+    }
+  },
+  "results_canvas": "Claude Design canvas in Ziyad's account: تجربة برومبت مقهى صحم"
 }
