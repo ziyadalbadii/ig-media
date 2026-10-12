@@ -1,0 +1,16 @@
+{
+  "type": "carousel",
+  "title": "طالب جامعة؟ 4 أدوات ذكاء اصطناعي ببلاش",
+  "status": "ready",
+  "slides": 7,
+  "theme": "news-bulletin (weekly summary)",
+  "cta_keyword": "طالب",
+  "links_page": "posts/2026-10-14-ai-student-tools/links.md",
+  "sources": [
+    "https://openai.com/index/chatgpt-study-mode",
+    "https://edu.google.com/intl/ALL_au/ai-notebooklm/",
+    "https://claude.com/product/design",
+    "https://consensus.app"
+  ],
+  "review": {"gate_v1": "34/50", "gate_v2": "39/50"}
+}
