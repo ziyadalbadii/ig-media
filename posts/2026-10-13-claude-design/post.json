@@ -1,7 +1,7 @@
 {
   "type": "carousel",
   "title": "كيف تستخدم كلود في التصميم",
-  "status": "ready",
+  "status": "rejected",
   "slides": 8,
   "cta_keyword": "تصميم",
   "sources": [
@@ -18,5 +18,7 @@
       "v3": 50
     }
   },
-  "results_canvas": "Claude Design canvas in Ziyad's account: تجربة برومبت مقهى صحم"
+  "results_canvas": "Claude Design canvas in Ziyad's account: تجربة برومبت مقهى صحم",
+  "rating": "سيئ",
+  "rating_reason": "زياد: مو المطلوب (13 أكتوبر 2026). ما بينزل."
 }
