@@ -1,72 +1,74 @@
 {
- "type": "carousel",
- "account": "@ziyadalbadi",
- "ig_user_id": "17841403002319163",
- "publish_at_local": "2026-10-12 17:00 Asia/Muscat",
- "publish_method": "manual (15 slides > API limit of 10)",
- "caption_file": "caption.txt",
- "links_page": "links.md",
- "status": "ready_manual",
- "items": [
-  {
-   "type": "image",
-   "file": "slide-01.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-02.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-03.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-04.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-05.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-06.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-07.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-08.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-09.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-10.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-11.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-12.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-13.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-14.jpg"
-  },
-  {
-   "type": "image",
-   "file": "slide-15.jpg"
-  }
- ]
+  "type": "carousel",
+  "account": "@ziyadalbadi",
+  "ig_user_id": "17841403002319163",
+  "publish_at_local": "2026-10-12 17:00 Asia/Muscat",
+  "publish_method": "manual (15 slides > API limit of 10)",
+  "caption_file": "caption.txt",
+  "links_page": "links.md",
+  "status": "published",
+  "items": [
+    {
+      "type": "image",
+      "file": "slide-01.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-02.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-03.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-04.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-05.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-06.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-07.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-08.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-09.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-10.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-11.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-12.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-13.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-14.jpg"
+    },
+    {
+      "type": "image",
+      "file": "slide-15.jpg"
+    }
+  ],
+  "media_id": "18139831885719800",
+  "permalink": "https://www.instagram.com/p/DeY0xfwCusY/"
 }
