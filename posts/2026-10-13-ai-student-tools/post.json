@@ -1,7 +1,7 @@
 {
   "type": "carousel",
   "title": "طالب جامعة؟ 4 أدوات ذكاء اصطناعي ببلاش",
-  "status": "scheduled",
+  "status": "published",
   "slides": 7,
   "theme": "news-bulletin (weekly summary)",
   "cta_keyword": "أدوات",
@@ -54,5 +54,10 @@
       "type": "image",
       "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/b527da7338fd173695b97af2a828f75e5bc8176d/posts/2026-10-13-ai-student-tools/slide-7.jpg"
     }
-  ]
+  ],
+  "media_id": "18114043064096503",
+  "container_id": "18496376227100078",
+  "permalink": "https://www.instagram.com/p/Deb3rqloAe6/",
+  "published_at_utc": "2026-10-13T13:02:56Z",
+  "published_at_local": "2026-10-13 17:02 Asia/Muscat"
 }
