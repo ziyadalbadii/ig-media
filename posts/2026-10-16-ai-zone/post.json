@@ -1,0 +1,54 @@
+{
+  "type": "carousel",
+  "title": "مايكروسوفت وآي بي إم يتباحثون مع شركة عمانية (منطقة الذكاء الاصطناعي)",
+  "status": "scheduled",
+  "slides": 7,
+  "sources": [
+    "https://www.omandaily.om/article/1209051",
+    "https://www.omanobserver.om/article/1194910/oman/omans-first-ai-sez-to-attract-ro-106-million-construction-to-start-in-2027",
+    "https://www.omandaily.om/ampArticle/1201843",
+    "https://soutalomam.net/أفق-العُمانية-وبرايم-مصر-يدشنان-أ/",
+    "https://www.omandaily.om/article/1207136"
+  ],
+  "image_credit": "Cover background: TAAFT Image Generator. Slide 2: Sout Al-Omam (launch 2025). Slide 6: Oman Daily (AIREA 2026). Wikimedia Commons: Riyadh Al Balushi (CC BY 2.0), Christopher Bowns (CC BY-SA 2.0), Ank Kumar (CC BY-SA 4.0), Muiad123 (CC BY-SA 4.0) - credited in caption",
+  "review": {
+    "gate": "hook 9, value 9, audience 9, CTA 8; curiosity to the end: pass"
+  },
+  "account": "@ziyadalbadi",
+  "ig_user_id": "17841403002319163",
+  "publish_at_local": "2026-10-16 17:00 Asia/Muscat",
+  "publish_at_utc": "2026-10-16T13:00:00Z",
+  "caption_file": "caption.txt",
+  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/caption.txt",
+  "approved": "زياد 16 أكتوبر 13:48: «حلو اعتمد» ثم 14:00: «احذف المصادر وكمل» واختار «يتباحثون»",
+  "items": [
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-1.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-2.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-3.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-4.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-5.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-6.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0bff8fcc11f773bd6fe1dde0834b51dd96af1157/posts/2026-10-16-ai-zone/slide-7.jpg"
+    }
+  ]
+}
