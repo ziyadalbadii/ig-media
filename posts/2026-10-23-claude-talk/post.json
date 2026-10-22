@@ -1,0 +1,62 @@
+{
+  "type": "carousel",
+  "title": "انت تكلّم كلود غلط",
+  "series": "سلسلة كلود (2)",
+  "status": "scheduled",
+  "slides": 9,
+  "theme": "light + real Claude screenshots + Ziyad brand mark (cover pill + footer)",
+  "source_folder": "~/Desktop/كاروسيل كلود 2 - كلمه صح",
+  "sources": [
+    "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+    "https://claude.com/resources/articles/best-practices-for-prompt-engineering",
+    "https://academy.claude.com/tutorials/getting-started-with-claude"
+  ],
+  "image_credit": "Screenshots of claude.ai incognito chats in Ziyad's account (Sonnet 5.5)",
+  "account": "@ziyadalbadi",
+  "ig_user_id": "17841403002319163",
+  "publish_at_local": "2026-10-23 11:00 Asia/Muscat",
+  "publish_at_utc": "2026-10-23T07:00:00Z",
+  "caption_file": "caption.txt",
+  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/caption.txt",
+  "approved": "زياد 23 أكتوبر: «خلنا ننزله باكر الساعه ١١» ثم «اقصد الجمعه ١١ الصبح» مع براند زياد (خيار ٣)",
+  "items": [
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-1.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-2.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-3.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-4.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-5.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-6.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-7.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-8.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/slide-9.jpg"
+    }
+  ],
+  "container_id": "18498461098100078",
+  "scheduled_task": "publish-claude-talk-carousel (Claude app scheduled task)"
+}
