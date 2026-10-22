@@ -2,7 +2,7 @@
   "type": "carousel",
   "title": "انت تكلّم كلود غلط",
   "series": "سلسلة كلود (2)",
-  "status": "scheduled",
+  "status": "ready",
   "slides": 9,
   "theme": "light + real Claude screenshots + Ziyad brand mark (cover pill + footer)",
   "source_folder": "~/Desktop/كاروسيل كلود 2 - كلمه صح",
@@ -14,8 +14,8 @@
   "image_credit": "Screenshots of claude.ai incognito chats in Ziyad's account (Sonnet 5.5)",
   "account": "@ziyadalbadi",
   "ig_user_id": "17841403002319163",
-  "publish_at_local": "2026-10-23 11:00 Asia/Muscat",
-  "publish_at_utc": "2026-10-23T07:00:00Z",
+  "publish_at_local": null,
+  "publish_at_utc": null,
   "caption_file": "caption.txt",
   "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0d027493bab538fde9a3654ccfa3ce3ca4b8160b/posts/2026-10-23-claude-talk/caption.txt",
   "approved": "زياد 23 أكتوبر: «خلنا ننزله باكر الساعه ١١» ثم «اقصد الجمعه ١١ الصبح» مع براند زياد (خيار ٣)",
@@ -58,5 +58,5 @@
     }
   ],
   "container_id": "18498461098100078",
-  "scheduled_task": "publish-claude-talk-carousel (Claude app scheduled task)"
+  "note": "Not scheduled: Ziyad chose the Claude + Gmail carousel for Fri 23 Oct 11:00. Container 18498461098100078 expires within 24h; create a new one when publishing."
 }
