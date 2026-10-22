@@ -1,0 +1,63 @@
+{
+  "type": "carousel",
+  "title": "لا تستخدم كلود قبل ما تسوي هالشي",
+  "series": "سلسلة كلود (1 من 7، بدون ترقيم في التصميم)",
+  "status": "published",
+  "slides": 8,
+  "theme": "light (#F3F0E8) + real Claude screenshots, Lalezar + Alexandria",
+  "source_folder": "~/Desktop/كاروسيل كلود الحلقة 1 - جهزه",
+  "sources": [
+    "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
+    "https://support.claude.com/en/articles/11817273",
+    "https://support.claude.com/en/articles/12260368-use-incognito-chats",
+    "https://academy.claude.com/tutorials/choosing-the-right-claude-model",
+    "https://claude.com/pricing"
+  ],
+  "image_credit": "Screenshots of claude.ai taken from Ziyad's own account (memory summaries blurred)",
+  "account": "@ziyadalbadi",
+  "ig_user_id": "17841403002319163",
+  "publish_at_local": "2026-10-23 00:10 Asia/Muscat",
+  "publish_at_utc": "2026-10-22T20:10:00Z",
+  "caption_file": "caption.txt",
+  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/caption.txt",
+  "approved": "زياد 23 أكتوبر: «اعتمده ونزله فحسابي» ثم «الحين»",
+  "items": [
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-1.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-2.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-3.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-4.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-5.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-6.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-7.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/439eec2608344efafe44fa4a3fa61b886b55ac2c/posts/2026-10-23-claude-setup/slide-8.jpg"
+    }
+  ],
+  "container_id": "18498455800100078",
+  "media_id": "18094426715162904",
+  "permalink": "https://www.instagram.com/p/Dezzu6knQmC/",
+  "published_at_utc": "2026-10-22T20:10:14Z",
+  "published_at_local": "2026-10-23 00:10 Asia/Muscat"
+}
