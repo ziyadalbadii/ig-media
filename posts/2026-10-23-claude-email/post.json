@@ -1,55 +1,57 @@
 {
   "type": "carousel",
   "title": "كلود صار يرد على إيميلاتك… بس بإذنك",
-  "status": "scheduled",
+  "status": "published",
   "slides": 9,
   "source_folder": "~/Desktop/كاروسيل كلود والإيميل",
-  "brand": "Ziyad photo + «زيـاد | تقنية» + @ziyadalbadi in every footer; photo on last slide",
+  "brand": "@ZIYADALBADI in every footer (EV-charging layout, Tajawal font); no photo, no topic pill",
   "account": "@ziyadalbadi",
   "ig_user_id": "17841403002319163",
-  "publish_at_local": "2026-10-23 11:00 Asia/Muscat",
-  "publish_at_utc": "2026-10-23T07:00:00Z",
+  "publish_at_local": "2026-10-23 19:03 Asia/Muscat",
+  "publish_at_utc": "2026-10-23T15:03:24Z",
   "caption_file": "caption.txt",
-  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/caption.txt",
-  "approved": "زياد 23 أكتوبر: «انا كنت اقصد لك كاروسيل اسمه كلود والايميل… عجبني بس باقي اضيف فيه حسابي»، «اقصد الجمعه ١١ الصبح»، والكابشن: «تم»",
+  "caption_url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/caption.txt",
+  "approved": "زياد 23 أكتوبر: التصميم بترتيب بوست الشحن «حلو نزله الحين»، والكابشن: «تم»",
   "items": [
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-1.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-1.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-2.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-2.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-3.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-3.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-4.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-4.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-5.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-5.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-6.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-6.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-7.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-7.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-8.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-8.jpg"
     },
     {
       "type": "image",
-      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/0e14ba76b9c4690b5d4e652b2d6de77a1b8f3daa/posts/2026-10-23-claude-email/slide-9.jpg"
+      "url": "https://raw.githubusercontent.com/ziyadalbadii/ig-media/1015045a06b89461fb01457a59b089f5b1ef41f2/posts/2026-10-23-claude-email/slide-9.jpg"
     }
   ],
-  "container_id": "18498462697100078",
-  "scheduled_task": "publish-claude-talk-carousel (Claude app scheduled task, 11:00 Muscat)"
+  "container_id": "18498604936100078",
+  "media_id": "18104679089015139",
+  "permalink": "https://www.instagram.com/p/De11aXiIFy-/",
+  "note": "The 11:00 scheduled run could not reach Composio (timeouts) and did not publish; published manually at 19:03 after the redesign."
 }
